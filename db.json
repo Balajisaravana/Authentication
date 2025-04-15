@@ -1,0 +1,51 @@
+
+{
+  "users": [
+    {
+      "userId": "u-001",
+      "id": 1,
+      "email": "user@example.com",
+      "password": "$2y$10$Kn.PFtVfo9TqgeRzvkvmDewPS5EoyrVt76fW/W/T4o4Awox4GQggu",
+      "name": "John Doe",
+      "type": "user"
+    },
+    {
+      "userId": "a-001",
+      "id": 2,
+      "email": "admin@example.com",
+      "password": "$2y$10$Kn.PFtVfo9TqgeRzvkvmDewPS5EoyrVt76fW/W/T4o4Awox4GQggu",
+      "name": "Admin User",
+      "type": "admin"
+    }
+  ],
+  "product" : [
+    {
+      "id": "1",
+      "name": "Minimalist Desk Lamp",
+      "description": "Modern LED desk lamp with adjustable brightness",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=500",
+      "category": "Home",
+      "stock": 50
+    },
+    {
+      "id": "2",
+      "name": "Wireless Earbuds",
+      "description": "Premium wireless earbuds with noise cancellation",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1606220838315-056192d5e927?auto=format&fit=crop&q=80&w=500",
+      "category": "Electronics",
+      "stock": 30
+    },
+    {
+      "id": "3",
+      "name": "Leather Wallet",
+      "description": "Handcrafted genuine leather wallet",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&q=80&w=500",
+      "category": "Accessories",
+      "stock": 45
+    }
+  ]
+  
+}
