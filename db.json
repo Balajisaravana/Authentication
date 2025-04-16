@@ -46,6 +46,273 @@
       "category": "Accessories",
       "stock": 45
     }
+  ],
+  "transactions" : [
+    {
+      
+      "transaction_data": [
+     
+        {
+          "Status": "Routed - Silver",
+          "Today Volume": 215,
+          "Today Value (USD)": 195000.00,
+          "Future Volume": 80,
+          "Future Value (USD)": 1105300.00
+        },
+        {
+          "Status": "Validate Instruction",
+          "Today Volume": 950,
+          "Today Value (USD)": 90123450.00,
+          "Future Volume": 12,
+          "Future Value (USD)": 3145.55
+        },
+        {
+          "Status": "Duplicate Review",
+          "Today Volume": 17,
+          "Today Value (USD)": 14220000.00,
+          "Future Volume": 1,
+          "Future Value (USD)": 0.00
+        },
+        {
+          "Status": "Control Filters",
+          "Today Volume": 860,
+          "Today Value (USD)": 2710000.00,
+          "Future Volume": 25,
+          "Future Value (USD)": 8112000.00
+        },
+        {
+          "Status": "Electronic Instructions",
+          "Today Volume": 1205,
+          "Today Value (USD)": 9876450500.00,
+          "Future Volume": 122,
+          "Future Value (USD)": 14580100.20
+        },
+        {
+          "Status": "Sanctions Review",
+          "Today Volume": 9020,
+          "Today Value (USD)": 40000000.00,
+          "Future Volume": 5000,
+          "Future Value (USD)": 22145320.45
+        },
+        {
+          "Status": "Payments Control",
+          "Today Volume": 3980,
+          "Today Value (USD)": 128750000.00,
+          "Future Volume": 18,
+          "Future Value (USD)": 4000.00
+        },
+        {
+          "Status": "Funds Control",
+          "Today Volume": 790,
+          "Today Value (USD)": 1789000.00,
+          "Future Volume": 105,
+          "Future Value (USD)": 2450.25
+        },
+        {
+          "Status": "Clearing and Settlement",
+          "Today Volume": 29005,
+          "Today Value (USD)": 312654000.00,
+          "Future Volume": 1580,
+          "Future Value (USD)": 4005000.00
+        },
+        {
+          "Status": "Awaiting Account Posting",
+          "Today Volume": 650,
+          "Today Value (USD)": 890230000.00,
+          "Future Volume": 75,
+          "Future Value (USD)": 9220.00
+        },
+        {
+          "Status": "Scheduled",
+          "Today Volume": 505,
+          "Today Value (USD)": 5150000.00,
+          "Future Volume": 0,
+          "Future Value (USD)": 0.00
+        },
+        {
+          "Status": "Total",
+          "Today Volume": 97197,
+          "Today Value (USD)": 11396462400.00,
+          "Future Volume": 7018,
+          "Future Value (USD)": 52171536.45
+        }
+      ],
+      "date": "2023-10-01"
+    },
+    {
+      
+      "transaction_data" : [
+        {
+          "Status": "Routed - Silver",
+          "Today Volume": 215,
+          "Today Value (USD)": 195000.00,
+          "Future Volume": 80,
+          "Future Value (USD)": 1105300.00
+        },
+        {
+          "Status": "Validate Instruction",
+          "Today Volume": 950,
+          "Today Value (USD)": 90123450.00,
+          "Future Volume": 12,
+          "Future Value (USD)": 3145.55
+        },
+        {
+          "Status": "Duplicate Review",
+          "Today Volume": 17,
+          "Today Value (USD)": 14220000.00,
+          "Future Volume": 1,
+          "Future Value (USD)": 0.00
+        },
+        {
+          "Status": "Control Filters",
+          "Today Volume": 860,
+          "Today Value (USD)": 2710000.00,
+          "Future Volume": 25,
+          "Future Value (USD)": 8112000.00
+        },
+        {
+          "Status": "Electronic Instructions",
+          "Today Volume": 1205,
+          "Today Value (USD)": 9876450500.00,
+          "Future Volume": 122,
+          "Future Value (USD)": 14580100.20
+        },
+        {
+          "Status": "Sanctions Review",
+          "Today Volume": 9020,
+          "Today Value (USD)": 40000000.00,
+          "Future Volume": 5000,
+          "Future Value (USD)": 22145320.45
+        },
+        {
+          "Status": "Payments Control",
+          "Today Volume": 3980,
+          "Today Value (USD)": 128750000.00,
+          "Future Volume": 18,
+          "Future Value (USD)": 4000.00
+        },
+        {
+          "Status": "Funds Control",
+          "Today Volume": 790,
+          "Today Value (USD)": 1789000.00,
+          "Future Volume": 105,
+          "Future Value (USD)": 2450.25
+        },
+        {
+          "Status": "Clearing and Settlement",
+          "Today Volume": 29005,
+          "Today Value (USD)": 312654000.00,
+          "Future Volume": 1580,
+          "Future Value (USD)": 4005000.00
+        }
+      ],
+       "date": "2023-9-01"
+    } 
+  ],
+  "payments":[
+    {
+      "date":"2023-10-01",
+      "transactionTypes": [
+        {
+          "Type": "IRCT",
+          "Volume": 139,
+          "Value (USD)": 181096292.64
+        },
+        {
+          "Type": "RDOT",
+          "Volume": 48,
+          "Value (USD)": 2430.88
+        },
+        {
+          "Type": "Payments (ICDT)",
+          "Volume": 21,
+          "Value (USD)": 4010168.53
+        },
+        {
+          "Type": "IDDT",
+          "Volume": 15,
+          "Value (USD)": 557.44
+        },
+        {
+          "Type": "MDOP",
+          "Volume": 12,
+          "Value (USD)": 3911238.36
+        },
+        {
+          "Type": "Receipts (RCDT)",
+          "Volume": 12,
+          "Value (USD)": 56082946.47
+        },
+        {
+          "Type": "MCOP",
+          "Volume": 4,
+          "Value (USD)": 51635.36
+        },
+        {
+          "Type": "RRCT",
+          "Volume": 3,
+          "Value (USD)": 145.92
+        },
+        {
+          "Type": "Total",
+          "Volume": 254,
+          "Value (USD)": 245155415.60
+        }
+      
+      ]
+
+    },{
+      "date":"2023-9-01",
+      "transactionTypes": [
+        {
+          "Type": "IRCT",
+          "Volume": 120,
+          "Value (USD)": 167845312.42
+        },
+        {
+          "Type": "RDOT",
+          "Volume": 55,
+          "Value (USD)": 3850.12
+        },
+        {
+          "Type": "Payments (ICDT)",
+          "Volume": 25,
+          "Value (USD)": 3891765.22
+        },
+        {
+          "Type": "IDDT",
+          "Volume": 18,
+          "Value (USD)": 724.10
+        },
+        {
+          "Type": "MDOP",
+          "Volume": 9,
+          "Value (USD)": 4120384.88
+        },
+        {
+          "Type": "Receipts (RCDT)",
+          "Volume": 14,
+          "Value (USD)": 60231456.79
+        },
+        {
+          "Type": "MCOP",
+          "Volume": 5,
+          "Value (USD)": 63210.47
+        },
+        {
+          "Type": "RRCT",
+          "Volume": 2,
+          "Value (USD)": 198.33
+        },
+        {
+          "Type": "Total",
+          "Volume": 248,
+          "Value (USD)": 241308112.33
+        }
+            ]
+    }
   ]
+
+ 
   
 }

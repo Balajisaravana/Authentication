@@ -8,9 +8,13 @@ async function getUserByUserId(userId) {
 }
 
 // Fetch product list from mock API
-async function getProducts() {
-  const res = await axios.get(`${MOCK_URL}/product`);
+async function getPayments() {
+  const res = await axios.get(`${MOCK_URL}/payments`);
   return res.data;
 }
 
-module.exports = { getUserByUserId, getProducts };
+async function getTransactions() {
+  const res = await axios.get(`${MOCK_URL}/transactions`);
+  return res.data;
+}
+module.exports = { getUserByUserId, getPayments, getTransactions };

@@ -1,7 +1,7 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-const { getUserByUserId, getProducts } = require('../utils/MockApi');
+const { getUserByUserId, getPayments, getTransactions } = require('../utils/MockApi');
 const { checkInactivity, validateTokens } = require('./authMiddleware');
 
 const router = express.Router();
@@ -17,12 +17,18 @@ const LAST_ACTIVITY_EXPIRY = 3 * 60 * 1000;
 // In-memory storage (demo purposes)
 let refreshTokens = [];
 const loginAttempts = {};
+const impMiddleware = [validateTokens, checkInactivity]
 
 // GET /auth/product - Protected route
-router.get('/product', validateTokens, checkInactivity, async (req, res) => {
-  const products = await getProducts();
+router.get('/payment', impMiddleware, async (req, res) => {
+  const products = await getPayments();
   res.json({ products });
 });
+
+router.get('/transaction', impMiddleware, async (req, res) => {
+  const transactions = await getTransactions();
+  res.json({ transactions });
+})
 
 // POST /auth/login
 router.post('/login', async (req, res) => {
